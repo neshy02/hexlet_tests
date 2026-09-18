@@ -4,4 +4,6 @@ def capitalize(text):
 
     first_char = text[0].upper()
     rest_string = text[1:]
-    return f'{first_char}{text[1:]}'
+    return f'{first_char}{rest_string}'
+
+print(capitalize('Hello'))
